@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    width: 50%;
+    height: 100vh; /* Faz com que o container ocupe a altura total da tela */
+    margin: 0;
+  }
+  
+  .left-side {
+    flex: 1;
+    background-color: #3498db; /* Cor de fundo da metade esquerda */
+  }
+  

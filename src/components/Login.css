@@ -1,0 +1,41 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFFFF1;
+  }
+  
+  .form-group {
+    margin-bottom: 55px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  .form-group input {
+    width: 300%;
+    padding: 15px;
+    border: 2px solid #BCB3DF;
+    background: transparent;
+    border-radius: 20px;
+  }
+  
+  button {
+    width: 200%;
+    padding: 15px;
+    border: none;
+    background-color: #BCB3DF;
+    color: #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #BCB3DF;
+  }
+  
